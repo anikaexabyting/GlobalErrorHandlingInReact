@@ -11,7 +11,7 @@ function PostList() {
         const data = await res.json();
         setPosts(data);
       } catch (err) {
-        showBoundary(err);
+        throw new Error("No post")
       }
     }
 

@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './component/Hero'
-import { ErrorBoundary } from 'react-error-boundary'
+import ErrorBoundary from './component/errorboundary/ErrorBoundary'
 import PostList from './component/PostList'
 import FileNotFound from './component/FileNotFound'
 const logError = (error, info) => {
